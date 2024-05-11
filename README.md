@@ -1,7 +1,7 @@
 # SPT Auto Updater
 
-[![License](https://img.shields.io/github/license/Hounderd/SPT-Auto-Updater)](LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/Hounderd/SPT-Auto-Updater)](https://github.com/YOUR_GITHUB_USERNAME/SPT-Auto-Updater/releases)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Latest Release](https://img.shields.io/github/v/release/Hounderd/SPT-Auto-Updater)](https://github.com/Hounderd/SPT-Auto-Updater/releases)
 
 This tool simplifies the process of keeping your SPT-Aki (Escape from Tarkov server mod) installation up-to-date. It automatically checks for and downloads updates for the SPT server itself, as well as essential mods like Fika.
 
@@ -37,7 +37,11 @@ SPT-Aki can be tricky to update manually due to the various components and depen
 
 ## Building the Executable from Source
 
-1. **Prerequisites:** Ensure you have Python installed and the required libraries (run `pip install -r requirements.txt`).
-2. **PyInstaller:**  Use PyInstaller to package the script into an executable:
+1. **Prerequisites:**
+    * **Python 3.x:**  Ensure Python is installed.
+    * **Nuitka:** Install Nuitka using `pip install nuitka`.
+    * **Dependencies:** Install the required Python packages: `pip install customtkinter requests pefile`.
+2. **Clone:** Clone this repository.
+3. **Compile:**  From the project directory, run the following command:
    ```bash
-   pyinstaller --onefile auto-updater.py
+   python -m nuitka --onefile --enable-plugin=tk-inter --disable-console --file-reference-choice=runtime auto-updater.py
