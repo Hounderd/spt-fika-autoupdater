@@ -38,7 +38,11 @@ SPT-Aki can be tricky to update manually due to the various components and depen
 
 Building from source is not fully supported at this time. It is not reccomended to use this auto-updater this way. Please download the auto-updater from the [Releases](https://github.com/Hounderd/SPT-Auto-Updater/releases) page.
 
-1. **Prerequisites:** Ensure you have Python installed and the required libraries (run `pip install -r requirements.txt`).
-2. **PyInstaller:**  Use PyInstaller to package the script into an executable:
+1. **Prerequisites:**
+    * **Python 3.x:**  Ensure Python is installed.
+    * **Nuitka:** Install Nuitka using `pip install nuitka`.
+    * **Dependencies:** Install the required Python packages: `pip install customtkinter requests pefile`.
+2. **Clone:** Clone this repository.
+3. **Compile:**  From the project directory, run the following command:
    ```bash
-   pyinstaller --onefile auto-updater.py
+   python -m nuitka --onefile --enable-plugin=tk-inter --disable-console --file-reference-choice=runtime auto-updater.py
