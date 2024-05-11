@@ -1,7 +1,7 @@
 # SPT Auto Updater
 
-[![License](https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/SPT-Auto-Updater)](LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/YOUR_GITHUB_USERNAME/SPT-Auto-Updater)](https://github.com/YOUR_GITHUB_USERNAME/SPT-Auto-Updater/releases)
+[![License](https://img.shields.io/github/license/Hounderd/SPT-Auto-Updater)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/Hounderd/SPT-Auto-Updater)](https://github.com/YOUR_GITHUB_USERNAME/SPT-Auto-Updater/releases)
 
 This tool simplifies the process of keeping your SPT-Aki (Escape from Tarkov server mod) installation up-to-date. It automatically checks for and downloads updates for the SPT server itself, as well as essential mods like Fika.
 
