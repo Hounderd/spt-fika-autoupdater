@@ -52,3 +52,13 @@ Building from source is not fully supported at this time. It is not reccomended 
 The pre-built .exe from the releases page will more than likely show up as a virus in windows defender. This is because its compiling a python script that uses functions like copying files, changing directories and other functions that viruses also mimic. This is why i included the code as open-source, and the ability to build your own executable from source. We can see that the source is not malicious, and if you dont trust a pre-built exe, you can build it yourself.
 
 I believe the PAID version of the nuitka compiler has options to make it so the exe doesnt show up as a virus, but this is a free project that im not making any money off of so im not paying money to compile.
+
+## Hosting Your Own manifest.json
+
+coming soon:tm:
+
+## Contributing
+
+I started this project just to make it easier for my friends and I to update their clients for SPT and Fika. I still have alot of ideas for this project that I will be adding, but anyone is free to fork the codebase for their own needs. If you find any issues, please submit an issue under the github project page. If you would like to contribute feel free to submit a PR and i will review it :)
+
+LETS MAKE TARKOV GREAT AGAIN!
