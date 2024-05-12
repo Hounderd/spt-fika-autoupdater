@@ -46,3 +46,9 @@ Building from source is not fully supported at this time. It is not reccomended 
 3. **Compile:**  From the project directory, run the following command:
    ```bash
    python -m nuitka --onefile --enable-plugin=tk-inter --disable-console --file-reference-choice=runtime auto-updater.py
+
+## False positive virus warning from the pre-built executable
+
+The pre-built .exe from the releases page will more than likely show up as a virus in windows defender. This is because its compiling a python script that uses functions like copying files, changing directories and other functions that viruses also mimic. By all means windows SHOULD detect this as a virus because it simply behaves like one, and is unsigned. This is why i included the code as open-source, and the ability to build your own executable from source. We can see that the source is not malicious, and if you dont trust a pre-built exe, you can build it yourself.
+
+I believe the PAID version of the nuitka compiler has options to make it so the exe doesnt show up as a virus, but this is a free project that im not making any money off of so im not paying money to compile.
