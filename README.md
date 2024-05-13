@@ -26,7 +26,7 @@ SPT-Aki can be tricky to update manually due to the various components and depen
 
 ## How to Use the Precompiled Executable
 
-1. **Download:**  Grab the latest `auto-updater.exe` from the [Releases](https://github.com/Hounderd/SPT-Auto-Updater/releases) page.
+1. **Download:**  Grab the latest `auto-updater.exe` from the [Releases](https://github.com/Hounderd/spt-fika-autoupdater/releases) page.
 2. **Place:**  Put the executable in the root directory of your SPT-Aki installation (usually `C:\SPT`).
 3. **Check for Updates:**  Run auto-updater.exe and then click the "Check for Updates" button.
 4. **Follow Instructions:** If updates are found, follow the prompts to download and install them.
@@ -34,7 +34,7 @@ SPT-Aki can be tricky to update manually due to the various components and depen
 
 ## Building the Executable from Source
 
-Building from source is not fully supported at this time. It is not reccomended to use this auto-updater this way. Please download the auto-updater from the [Releases](https://github.com/Hounderd/SPT-Auto-Updater/releases) page.
+Building from source is not fully supported at this time. It is not reccomended to use this auto-updater this way. Please download the auto-updater from the [Releases](https://github.com/Hounderd/spt-fika-autoupdater/releases) page.
 
 1. **Prerequisites:**
     * **Python 3.x:**  Ensure Python is installed.
