@@ -20,7 +20,7 @@ This tool simplifies the process of keeping your SPT-Aki (Single Player Tarkov) 
 SPT-Aki can be tricky to update manually due to the various components and dependencies. This auto updater streamlines the process, ensuring a smooth and hassle-free experience.
 
 ## Features
-
+![spt updater screenshot](https://download.nodd.dev/updater-screenshot.png)
 - **Automatic Update Checks:**  Regularly checks for new versions of SPT-Aki, Fika, and the updater itself.
 - **Guided Update Process:**  Intuitive GUI walks you through the update steps.
 - **Customizable:**  Can be configured to use your own manifest file to point to different update sources.
