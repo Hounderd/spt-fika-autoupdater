@@ -1,7 +1,6 @@
 # SPT Auto Updater
 
-[![License](https://img.shields.io/github/license/Hounderd/SPT-Auto-Updater)](LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/Hounderd/SPT-Auto-Updater)](https://github.com/YOUR_GITHUB_USERNAME/SPT-Auto-Updater/releases)
+[![Latest Release](https://img.shields.io/github/v/release/Hounderd/spt-fika-autoupdater)](https://github.com/Hounderd/spt-fika-autoupdater/releases)
 
 This tool simplifies the process of keeping your SPT-Aki (Single Player Tarkov) installation up-to-date. It automatically checks for and downloads updates for the SPT server itself, as well as updates for essential coop mods like Fika.
 
@@ -13,7 +12,6 @@ This tool simplifies the process of keeping your SPT-Aki (Single Player Tarkov) 
 - [Building the Executable from Source](#building-the-executable-from-source)
 - [Hosting Your Own `manifest.json`](#hosting-your-own-manifestjson)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
