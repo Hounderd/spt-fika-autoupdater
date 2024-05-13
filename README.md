@@ -19,7 +19,7 @@ SPT-Aki can be tricky to update manually due to the various components and depen
 
 ## Features
 ![spt updater screenshot](https://download.nodd.dev/updater-screenshot.png)
-- **Automatic Update Checks:**  Regularly checks for new versions of SPT-Aki, Fika, and the updater itself.
+- **Automatic Update Checks:**  Checks for new versions of SPT-Aki, Fika, and the updater itself. All with the click of a button!
 - **Guided Update Process:**  Intuitive GUI walks you through the update steps.
 - **Customizable:**  Can be configured to use your own manifest file to point to different update sources.
 - **Easy to Use:**  Whether you're a beginner or an experienced user, this tool is designed to be simple.
@@ -54,6 +54,13 @@ I believe the PAID version of the nuitka compiler has options to make it so the 
 ## Hosting Your Own manifest.json
 
 coming soon:tm:
+
+## Planned Features
+
+1. Configurable automatic mod updates like SAIN, SWAG+DONUTS etc
+2. Ability to backup profiles and mod settings
+3. Clean install to latest version or incremental patch to latest version (current default)
+4. Ability to rollback to a specific SPT or FIKA version
 
 ## Contributing
 
