@@ -1,0 +1,56 @@
+{
+  "UPDATER-Version": "1.0",
+  "SPT-Version": "3.8.3",
+  "Fika-Version": "0.9.8892.36315",
+  "Fika": {
+    "0.9.8892.36315": {
+      "1": "Fika License.txt",
+      "2": "LiteNetLib License.txt",
+      "3": "Open.NAT License.txt",
+      "4": "SIT License.txt",
+      "5": "BepInEx/plugins/Fika.Core.dll"
+    },
+    "0.9.8890.36671": {
+      "1": "Fika License.txt",
+      "2": "LiteNetLib License.txt",
+      "3": "Open.NAT License.txt",
+      "4": "SIT License.txt",
+      "5": "BepInEx/plugins/Fika.Core.dll"
+    }
+  },
+  "SPT": {
+    "3.8.3": {
+      "can_update": "current"
+    },
+    "3.8.2": {
+      "can_update": "yes"
+    },
+    "3.8.1": {
+      "can_update": "yes"
+    },
+    "3.8.0": {
+      "can_update": "yes"
+    },
+    "3.7.6": {
+      "can_update": "no"
+    },
+    "3.7.5": {
+      "can_update": "no"
+    },
+    "3.7.4": {
+      "can_update": "no"
+    },
+    "3.7.3": {
+      "can_update": "no"
+    },
+    "3.7.2": {
+      "can_update": "no"
+    },
+    "3.7.1": {
+      "can_update": "no"
+    },
+    "3.7.0": {
+      "can_update": "no"
+    }
+  }
+}
