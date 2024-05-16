@@ -49,7 +49,7 @@ Building from source is not fully supported at this time. It is not reccomended 
 
 The pre-built .exe from the releases page will more than likely show up as a virus in windows defender. This is because its compiling a python script that uses functions like copying files, changing directories and other functions that viruses also mimic. This is why i included the code as open-source, and the ability to build your own executable from source. We can see that the source is not malicious, and if you dont trust a pre-built exe, you can build it yourself.
 
-UPDATE: I sent the exe to microsoft as a false malware detection and they actually got back to me pretty quickly and said they didn't find any malware and removed it from the detection algorithim! This is great news as the auto-updater should no longer be falsely flagged as malware. If you still experience these problems, please raise an issue!
+UPDATE: I sent the exe to microsoft as a false malware detection and they actually got back to me pretty quickly and said they didn't find any malware and removed it from the detection algorithm! This is great news as the auto-updater should no longer be falsely flagged as malware. If you still experience these problems, please raise an issue!
 
 ## Hosting Your Own manifest.json
 
